@@ -1,0 +1,20 @@
+# Versions used for the local smoke tests (Python 3.12.3). The GPU runs used
+# the same install procedure; their exact torch build was not recorded.
+benchopt==1.10.0
+numpy==2.5.4
+pandas==3.1.0
+pyarrow==26.0.1
+scikit-learn==1.9.1
+torch==2.15.0
+torchvision==0.29.2
+torchaudio==2.11.1
+braindecode==2.0.0
+# data stack of the real dataset, pinned like the organisers' image
+neuralset==0.4.0
+neuralfetch==0.4.0
+neuraltrain==0.4.0
+neuralbench==0.4.0
+exca==0.5.29
+mne==1.13.2
+nemar-py==0.3.3
+eegdash==0.9.1

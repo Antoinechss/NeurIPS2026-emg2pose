@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+# created by scripts/setup.sh
+third_party/
+data/
+env.sh
+neuralbench_config.json
+# run outputs, weights and submissions
+outputs/
+*.parquet
+*.pt
+*.zip
+wandb/
+runs/
