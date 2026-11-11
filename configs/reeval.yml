@@ -1,0 +1,10 @@
+# Score the exported submission without training, like the platform (row 4b):
+# the pair, then member 0 alone. Run it from the repo root after final.yml.
+dataset:
+  - EMG2Pose[n_train_subjects=8,num_workers=12]
+solver:
+  - third_party/codabench_emg2pose/benchmark/outputs/posebinet/submission.py[member=[-1,0]]
+objective:
+  - EMG-pose[training=False]
+n-repetitions: 1
+plot: false

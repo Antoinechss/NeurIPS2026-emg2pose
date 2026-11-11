@@ -1,0 +1,7 @@
+# Submitted model (row 2b, 15.98 on Codabench): VEMG2Pose+ (causal), 25k steps.
+dataset:
+  - EMG2Pose[n_train_subjects=158,num_workers=12]
+solver:
+  - src/vemg2pose_plus.py
+n-repetitions: 1
+plot: false

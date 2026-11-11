@@ -1,0 +1,7 @@
+# 3000-step screen of one PoseBiNet member, two encoder sizes (rows 3c, 3d).
+dataset:
+  - EMG2Pose[n_train_subjects=158,num_workers=12]
+solver:
+  - src/posebinet.py[max_steps=3000,warmup_steps=300,n_models=1,enc_channels=[256,384]]
+n-repetitions: 1
+plot: false

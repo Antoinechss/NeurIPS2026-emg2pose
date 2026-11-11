@@ -1,0 +1,9 @@
+# Final model (row 4a of results/experiments.md): PoseBiNet, 2 members, 25k steps.
+# Trains on the 158 training users, scores the public split, exports
+# $B/outputs/posebinet.zip (a Codabench submission zip).
+dataset:
+  - EMG2Pose[n_train_subjects=158,num_workers=12]
+solver:
+  - src/posebinet.py
+n-repetitions: 1
+plot: false

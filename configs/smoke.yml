@@ -1,0 +1,7 @@
+# Quick CPU check on fake data: trains 2 members for 20 steps, scores, exports.
+dataset:
+  - Simulated
+solver:
+  - src/posebinet.py[max_steps=20,warmup_steps=5]
+n-repetitions: 1
+plot: false
